@@ -1,0 +1,59 @@
+[ 2020/9/18 下午8:32:32 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/18 下午8:32:32 ] [ error ] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}], mongodb Authentication failed
+[ 2020/9/18 下午8:32:32 ] [ log ] mongodb load success...
+[ 2020/9/18 下午9:03:41 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/18 下午9:03:41 ] [ error ] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}], mongodb Authentication failed
+[ 2020/9/18 下午9:03:41 ] [ log ] mongodb load success...
+[ 2020/9/18 下午9:50:27 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/18 下午9:50:27 ] [ log ] mongodb load success...
+[ 2020/9/18 下午9:50:52 ] [ error ] Cannot read property 'username' of null
+[ 2020/9/18 下午9:53:44 ] [ error ] Cannot read property 'username' of null
+[ 2020/9/18 下午9:55:26 ] [ error ] Cannot read property 'username' of null
+[ 2020/9/18 下午10:00:49 ] [ error ] Cannot read property 'username' of null
+[ 2020/9/18 下午10:02:20 ] [ error ] Cannot read property 'username' of null
+[ 2020/9/18 下午10:04:10 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/18 下午10:04:10 ] [ log ] mongodb load success...
+[ 2020/9/18 下午10:09:32 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/18 下午10:10:19 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/18 下午10:10:40 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/18 下午10:10:40 ] [ log ] mongodb load success...
+[ 2020/9/18 下午10:10:49 ] [ error ] Cannot read property 'username' of null
+[ 2020/9/18 下午10:12:18 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/18 下午10:12:18 ] [ log ] mongodb load success...
+[ 2020/9/21 下午8:22:25 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/21 下午8:22:25 ] [ log ] mongodb load success...
+[ 2020/9/21 下午8:22:34 ] [ error ] Cannot read property 'username' of null
+[ 2020/9/21 下午8:22:58 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/21 下午8:22:58 ] [ log ] mongodb load success...
+[ 2020/9/21 下午8:27:56 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/21 下午8:28:22 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/21 下午8:28:22 ] [ log ] mongodb load success...
+[ 2020/9/21 下午8:28:29 ] [ error ] Cannot read property 'username' of null
+[ 2020/9/21 下午8:29:05 ] [ log ] send mail liaoxuan@sogou-inc.com success
+[ 2020/9/21 下午8:35:38 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/21 下午8:35:38 ] [ log ] mongodb load success...
+[ 2020/9/21 下午8:36:59 ] [ log ] send mail test@sogou-inc.com success
+[ 2020/9/21 下午8:42:03 ] [ log ] send mail test@sogou-inc.com success

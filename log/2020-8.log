@@ -1,0 +1,27 @@
+[ 2020/8/18 下午7:40:02 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/8/18 下午7:40:02 ] [ error ] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}], mongodb Authentication failed
+[ 2020/8/18 下午7:40:02 ] [ log ] mongodb load success...
+[ 2020/8/20 下午3:50:58 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/8/20 下午3:50:58 ] [ error ] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}], mongodb Authentication failed
+[ 2020/8/20 下午3:50:58 ] [ log ] mongodb load success...
+[ 2020/8/20 下午3:54:08 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/8/20 下午3:54:08 ] [ error ] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError',
+  errorLabels: [Array],
+  [Symbol(mongoErrorContextSymbol)]: {}
+}], mongodb Authentication failed
+[ 2020/8/20 下午3:54:08 ] [ log ] mongodb load success...
