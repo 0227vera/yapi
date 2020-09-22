@@ -57,3 +57,9 @@ http://127.0.0.1:3000/
 [ 2020/9/21 下午8:35:38 ] [ log ] mongodb load success...
 [ 2020/9/21 下午8:36:59 ] [ log ] send mail test@sogou-inc.com success
 [ 2020/9/21 下午8:42:03 ] [ log ] send mail test@sogou-inc.com success
+[ 2020/9/21 下午10:12:04 ] [ log ] 服务已启动，请打开下面链接访问: 
+http://127.0.0.1:3000/
+[ 2020/9/21 下午10:12:04 ] [ log ] mongodb load success...
+[ 2020/9/22 上午10:45:25 ] [ error ] Cannot read property 'username' of null
+[ 2020/9/22 上午10:45:43 ] [ error ] Cannot read property 'username' of null
+[ 2020/9/22 上午10:46:01 ] [ error ] Cannot read property 'username' of null

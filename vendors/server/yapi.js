@@ -1,3 +1,5 @@
+// 主要的大对象，各种主要的方法会往上面挂载
+
 const path = require('path');
 const fs = require('fs-extra');
 const nodemailer = require('nodemailer');
@@ -6,6 +8,7 @@ const config = require('../../config.json');
 let insts = new Map();
 let mail;
 
+// 日志收集
 const WEBROOT = path.resolve(__dirname, '..'); //路径
 const WEBROOT_SERVER = __dirname;
 const WEBROOT_RUNTIME = path.resolve(__dirname, '../..');
@@ -14,6 +17,7 @@ const WEBCONFIG = config;
 
 fs.ensureDirSync(WEBROOT_LOG);
 
+// 邮件处理
 if (WEBCONFIG.mail && WEBCONFIG.mail.enable) {
   mail = nodemailer.createTransport(WEBCONFIG.mail);
 }

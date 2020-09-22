@@ -11,20 +11,27 @@ const plugins = require('./plugin.js');
 const websockify = require('koa-websocket');
 const websocket = require('./websocket.js');
 
+// 新建一个应用
 const Koa = require('koa');
+// 指定静态文件访问
 const koaStatic = require('koa-static');
 // const bodyParser = require('koa-bodyparser');
+// 处理post请求数据
 const koaBody = require('koa-body');
+// 路由管理
 const router = require('./router.js');
 
 let indexFile = process.argv[2] === 'dev' ? 'dev.html' : 'index.html';
 
+// 启动长连接
 const app = websockify(new Koa());
 app.proxy = true;
 yapi.app = app;
 
 // app.use(bodyParser({multipart: true}));
+// 设置文件上传以及http数据传输大小
 app.use(koaBody({ multipart: true, jsonLimit: '2mb', formLimit: '1mb', textLimit: '1mb' }));
+// 使用mock数据模块
 app.use(mockServer);
 app.use(router.routes());
 app.use(router.allowedMethods());

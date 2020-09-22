@@ -1,3 +1,5 @@
+// 对于mongo的处理
+
 const mongoose = require('mongoose');
 const yapi = require('../yapi.js');
 const autoIncrement = require('./mongoose-auto-increment');

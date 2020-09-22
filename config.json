@@ -13,10 +13,10 @@
     "enable": true,
     "host": "smtp.163.com",
     "port": 465,
-    "from": "m18301640806@163.com",
+    "from": "liaoxuan@sogou-inc.com",
     "auth": {
-      "user": "m18301640806@163.com",
-      "pass": "lzx2018"
+      "user": "liaoxuan@sogou-inc.com",
+      "pass": "123456"
     }
   }
 }
