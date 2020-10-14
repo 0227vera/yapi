@@ -1,6 +1,6 @@
 {
   "name": "yapi-vendor",
-  "version": "1.4.1",
+  "version": "1.0.0",
   "description": "YAPI",
   "main": "server/app.js",
   "scripts": {
@@ -11,7 +11,9 @@
     "dev": "npm run dev-server & npm run dev-client",
     "start": " node server/app.js",
     "test": "ava",
-    "build-client": "NODE_ENV=production ykit pack -m"
+    "build-client": "NODE_ENV=production ykit pack -m",
+    "prd": "pm2 start ./config/ecosystem.config.js",
+    "reload": "pm2 reload all"
   },
   "scripts-info": {
     "start": "运行生产环境服务器",
