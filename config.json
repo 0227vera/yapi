@@ -11,12 +11,13 @@
   },
   "mail": {
     "enable": true,
-    "host": "smtp.163.com",
+    "service": "qq",
+    "secureConnection": true,
     "port": 465,
-    "from": "liaoxuan@sogou-inc.com",
+    "from": "1066788870@qq.com",
     "auth": {
-      "user": "liaoxuan@sogou-inc.com",
-      "pass": "123456"
+      "user": "1066788870@qq.com",
+      "pass": "zyhxyxyksdttbejc"
     }
   }
 }
